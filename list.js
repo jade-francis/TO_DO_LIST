@@ -23,7 +23,7 @@ function addTask(){
 
     deleteBtn.addEventListener('click', function(event) {
         event.stopPropagation()
-        li.remove
+        li.remove();
     })
 
     li.appendChild(deleteBtn);
